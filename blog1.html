@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <style>
+        /* Custom styles for the form */
+        .custom-search-form {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .custom-search-form .form-control {
+            width: 300px;
+        }
+
+        /* Custom styles for the cards */
+        .custom-card {
+            margin-bottom: 20px;
+
+            
+        }
+        .custom-card img {
+            height: 300px; /* Adjust as needed */
+            object-fit: cover; /* Ensure image fills the container */
+        }
+        .custom-card .card-title {
+            font-size: 1.25rem;
+        }
+        .custom-card .card-text {
+            color: #e41e1e;
+        }
+        body{
+            background-color: chartreuse;
+        }
+        #qw{
+            color: orangered;
+        }
+        #er{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Experience
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="blog1.html">Week 1 - Leadership</a></li>
+                            <li><a class="dropdown-item" href="blog1.html">Week 1 - Software Engineering</a></li>
+                            <li><a class="dropdown-item" href="blog2.html">Week 2 - Leadership</a></li>
+                            <li><a class="dropdown-item" href="blog2.html">Week 2 - Software Engineering</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Search form -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+                <img style="height: 400px;" src ="download.jpg">
+              <h4 class="card-title" style="color: deeppink;">Leadership and personal development</h4>
+              <p class="card-text" id="qw">Personal development encompasses self-awareness, emotional intelligence, and intentional habits that foster growth. When leaders prioritize personal development, they:
+<br>
+                      *Improve decision-making and problem-solving skills<br>
+                      *Enhance communication and empathy<br>
+                      *Build stronger relationships with their team<br>
+                      *Increase resilience and adaptability<br>
+                      *Develop a growth mindset, leading to innovation and progress</p>
+              <a href="blog2.html" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+                <img style="height: 400px;" src ="ab.jpg">
+              <h4 class="card-title" style="color:red;">How the internet works and HTML</h4>
+              <p class="card-text" id="er">The internet is a global network of interconnected computers and servers that communicate with each other using standardized protocols. 
+                <br>
+               1. Networks
+                <br>
+                2.IP Addresses
+                <br>
+                3. Packets: 
+<br>
+4. Routing
+<br>
+5. Protocols
+<br>
+6. Servers
+<br>
+7. Client-Server Model
+            </p>
+              <a href="blog2.html" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+    </div> 
+    <!-- Bootstrap JS Bundle (Bootstrap + Popper) -->
+ <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> 
+ <footer>
+    <p>&copy; 2024 Abakwase Immaculate. All rights reserved. | 
+       <a href="mailto:contact@yourcompany.com">Contact Us</a> | 
+       <a href="privacy.html">Privacy Policy</a></p>
+</body>
+</html>
